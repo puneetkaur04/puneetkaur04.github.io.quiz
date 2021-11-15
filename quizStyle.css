@@ -1,0 +1,124 @@
+body{
+    background-color: rgba(255, 0, 0, 0.897);
+}
+/* code applied to the heading (NBA Basketball Quiz) */
+h1
+{
+    text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:2rem;
+    text-decoration-line: underline;
+}
+
+/* code applied to the heading (the question) */
+h3
+{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* code applied to the whole body*/
+.container
+{
+    background-color:rgb(62, 189, 221);
+    padding:15px;
+    border: 8px solid white;
+    border-radius: 5px;
+}
+
+/* code applied to the containers that contains a question and four options */
+.questions
+{
+    background-color: bisque;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* code applied to the submit and reset button */
+.btn
+{
+    color:black;
+    background-color: bisque;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding:15px;
+    width: 200px;
+    font-size:1.5rem; 
+    border: 2px solid black;
+    border-radius: 5px;
+} 
+
+/* code applied to the questions */
+.lbl
+{
+    color:black;
+    padding:10px;
+    font-size:1.5rem;    
+}
+
+/* code applied to the text in the p tags */
+p
+{
+    font-size:16px;
+    text-indent:25px;
+    padding:0px;
+}
+
+/* code concerning the score output */
+.percentage
+{
+    background-color: bisque;
+    width: 200px;
+    margin-left: auto;
+}
+
+#result
+{
+    border: 2px solid black;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px;
+    margin-top:-53px;
+}
+
+/* code applied to the questions the user got wrong or right */
+.finalOutput
+{
+    background-color: bisque;
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#result2
+{
+    margin-left: 273px;
+}
+
+#title
+{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#message
+{
+    margin-left: 273px;
+}
+
+/* code applied to the image */
+#nba
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
